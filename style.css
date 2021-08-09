@@ -1,0 +1,127 @@
+/*Website's font*/
+@font-face {
+    font-family: curvyfont;
+    src: url("fonts/fontcurvy.otf");
+}
+@font-face {
+    font-family: sansfont;
+    src: url("fonts/fontsans.otf");
+}
+
+@keyframes whitetodefaultbg {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(218, 218, 218); }
+}
+
+@keyframes loadanimation {
+    from {
+        font-size: 1;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+    }
+
+    to {
+        font-family: curvyfont;
+        font-size: 30px;
+        margin: auto;
+        max-width: 38rem;
+        padding: 2rem;
+        background-color: rgb(218, 218, 218);
+    }
+}
+
+@keyframes slidetoright {
+    from {
+      transform: translateX(0px);
+    }
+  
+    to {
+      transform: translateX(30px);
+    }
+  }
+
+.title {
+    animation: loadanimation 0.7s ease;
+    transform: translateX(30px);
+    font-size: 30px;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+}
+
+body {
+    animation: whitetodefaultbg 0.7s ease;
+    transition: all 0.7s ease;
+    font-family: curvyfont;
+    font-size: 30px;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    background-color: rgb(218, 218, 218);
+}
+
+#button {
+    transform: scale(2.6) translateX(62px);
+    transition: all 0.2s;
+    font-family: curvyfont;
+    background-color: black;
+    color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+#button:hover {
+    transform: scale(3.2) translateX(52px);
+    font-family: curvyfont;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 66, 66);
+}
+
+#button2 {
+    transform: scale(2.6) translateX(62px);
+    transition: all 0.2s;
+    font-family: curvyfont;
+    background-color: rgb(0, 0, 0);
+    color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+
+#button2:hover {
+    transform: scale(3.2) translateX(52px);
+    font-family: curvyfont;
+    color: rgb(241, 193, 61);
+    background-color: rgb(70, 66, 66);
+}
+
+
+
+#button3 {
+    transform: scale(2.6) translateX(62px);
+    transition: all 0.2s;
+    font-family: curvyfont;
+    background-color: rgb(0, 0, 0);
+    color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+
+#button3:hover {
+    transform: scale(3.2) translateX(52px);
+    font-family: curvyfont;
+    color: rgb(123, 255, 0);
+    background-color: rgb(70, 66, 66);
+}
+
+#button4 {
+    transform: scale(2.6) translateX(62px);
+    transition: all 0.2s;
+    font-family: curvyfont;
+    background-color: rgb(0, 0, 0);
+    color: rgb(175, 175, 175);
+    border-radius: 20px;
+}
+
+#button4:hover {
+    transform: scale(3.2) translateX(52px);
+    font-family: curvyfont;
+    color: rgb(229, 97, 252);
+    background-color: rgb(70, 66, 66);
+}
