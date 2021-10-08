@@ -48,6 +48,7 @@
     margin: auto;
     max-width: 38rem;
     padding: 2rem;
+    font-family: curvyfont;
 }
 
 body {
@@ -62,6 +63,8 @@ body {
 }
 
 #button {
+    height: 20px;
+    width: 40px;
     transform: scale(2.6) translateX(62px);
     transition: all 0.2s;
     font-family: curvyfont;
@@ -77,6 +80,8 @@ body {
 }
 
 #button2 {
+    height: 20px;
+    width: 40px;
     transform: scale(2.6) translateX(62px);
     transition: all 0.2s;
     font-family: curvyfont;
@@ -86,6 +91,8 @@ body {
 }
 
 #button2:hover {
+    height: 20px;
+    width: 40px;
     transform: scale(3.2) translateX(52px);
     font-family: curvyfont;
     color: rgb(241, 193, 61);
@@ -95,6 +102,8 @@ body {
 
 
 #button3 {
+    height: 20px;
+    width: 40px;
     transform: scale(2.6) translateX(62px);
     transition: all 0.2s;
     font-family: curvyfont;
@@ -104,6 +113,8 @@ body {
 }
 
 #button3:hover {
+    height: 20px;
+    width: 40px;
     transform: scale(3.2) translateX(52px);
     font-family: curvyfont;
     color: rgb(123, 255, 0);
@@ -111,6 +122,8 @@ body {
 }
 
 #button4 {
+    height: 20px;
+    width: 40px;
     transform: scale(2.6) translateX(62px);
     transition: all 0.2s;
     font-family: curvyfont;
@@ -120,6 +133,8 @@ body {
 }
 
 #button4:hover {
+    height: 20px;
+    width: 40px;
     transform: scale(3.2) translateX(52px);
     font-family: curvyfont;
     color: rgb(229, 97, 252);

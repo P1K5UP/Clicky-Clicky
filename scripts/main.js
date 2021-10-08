@@ -1,4 +1,4 @@
-var clicks = 0
+var clicks = getCookie(clicks)
 var clicksmodifier = 1
 var clickstext = document.getElementById("clicks")
 var button = document.getElementsByClassName("button")[0]
@@ -32,4 +32,20 @@ function buttonClick() {
     clicks = clicks + (clicksmodifier); // Add clicks
     new Audio("sounds/click.mp3").play(); // Play the click sound
     clickstext.innerHTML = clicks; // Set the text for the click
+}
+document.cookie = `clicks = ${clicks}; expires=Thu, 18 Dec 2025 12:00:00 UTC";`
+
+function getCookie(cookieName) {
+    var name = cookieName + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i].trim();
+        if ((c.indexOf(name)) == 0) {
+            alert("found");
+            return c.substr(name.length);
+        }
+
+    }
+    alert("not found");
+    return 0;
 }

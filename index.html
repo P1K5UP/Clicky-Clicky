@@ -1,6 +1,9 @@
 <html>
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Clicky.Clicky</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="hud.css">
@@ -9,13 +12,28 @@
 	<meta property="og:description" content="Click all your life"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:image" content="https://cdn.discordapp.com/attachments/874340307733475429/874550629429813348/unknown.png"/>
-
 </head>
 <body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="#">Settings</a></li>
+                <li><a href="leaderboard/leaderboard.html" target="_blank">Leaderboard</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     <div class="title">
         <h1 style="font-family: sansfont;">Clicky.Clicky</h1>
         <br>
+        <div class="clicks">
         <p id="clicks" style="transform: translate(170px, -50px); font-size: 35px;">0</p>
+        </div>
         <button class="button" id="button" onclick="buttonClick()">Click!</button>
     </div>
 
