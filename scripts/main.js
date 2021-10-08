@@ -1,4 +1,4 @@
-var clicks = getCookie(clicks)
+var clicks = 0
 var clicksmodifier = 1
 var clickstext = document.getElementById("clicks")
 var button = document.getElementsByClassName("button")[0]
